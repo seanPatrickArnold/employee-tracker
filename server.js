@@ -20,4 +20,6 @@ function getEmployees() {
     });
   };
 
+getEmployees();
+
 
