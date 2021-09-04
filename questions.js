@@ -32,7 +32,7 @@ let employeeQuestions = [
         type: 'input',
         message: "What is this employee's role?",
         name: 'role',
-        default: Math.floor(Math.random()*1000),
+        default: 'Role Maker',
         validate: roleInput => {
             if (roleInput) {
                 return true;
