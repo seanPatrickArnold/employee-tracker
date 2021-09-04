@@ -1,5 +1,5 @@
 const mysql = require('mysql2');
-const password = require('../password');
+const password = require('./password');
 
 const db = mysql.createConnection(
   {
