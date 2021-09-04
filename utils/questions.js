@@ -9,7 +9,7 @@ let employeeQuestions = [
             if (firstNameInput) {
                 return true;
             } else {
-                console.log('Please enter a name!');
+                console.log('Please enter a first name.');
                 return false;
             }
         }
@@ -23,7 +23,7 @@ let employeeQuestions = [
             if (lastNameInput) {
                 return true;
             } else {
-                console.log('Please enter a name!');
+                console.log('Please enter a last name.');
                 return false;
             }
         }
@@ -32,12 +32,12 @@ let employeeQuestions = [
         type: 'input',
         message: "What is this employee's role?",
         name: 'role',
-        default: 'Role Maker',
+        default: 'Departmenter',
         validate: roleInput => {
             if (roleInput) {
                 return true;
             } else {
-                console.log('Please enter id!');
+                console.log('Please enter a role.');
                 return false;
             }
         }
@@ -51,7 +51,7 @@ let employeeQuestions = [
             if (managerInput) {
                 return true;
             } else {
-                console.log('Please enter an email!');
+                console.log('Please enter a name.');
                 return false;
             }
         }
@@ -69,7 +69,7 @@ let departmentQuestions = [
             if (departmentInput) {
                 return true;
             } else {
-                console.log('Please enter a name!');
+                console.log('Please enter a department.');
                 return false;
             }
         }
@@ -87,7 +87,7 @@ let roleQuestions = [
             if (roleInput) {
                 return true;
             } else {
-                console.log('Please enter a role!');
+                console.log('Please enter a role.');
                 return false;
             }
         }
@@ -101,7 +101,7 @@ let roleQuestions = [
             if (salaryInput) {
                 return true;
             } else {
-                console.log('Please enter a salary!');
+                console.log('Please enter a salary.');
                 return false;
             }
         }
@@ -115,7 +115,7 @@ let roleQuestions = [
             if (roleInput) {
                 return true;
             } else {
-                console.log('Please enter id!');
+                console.log('Please enter a department.');
                 return false;
             }
         }
