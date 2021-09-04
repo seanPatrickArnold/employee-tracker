@@ -1,4 +1,5 @@
 const db = require('../config/connection')
+const cTable = require('console.table');
 
 // Get all candidates
 async function getEmployees() {
@@ -12,6 +13,7 @@ async function getEmployees() {
       if (err) {
         console.log('There was an error:' , err)
       }
+      console.log('\n');
       console.table(rows);
       });
   };
@@ -24,6 +26,7 @@ async function getDepartments() {
       if (err) {
         console.log('There was an error:' , err)
       }
+      console.log('\n');
       console.table(rows);
       });
   };
@@ -39,6 +42,7 @@ async function getRoles() {
       if (err) {
         console.log('There was an error:' , err)
       }
+      console.log('\n');
       console.table(rows);
       });
   };
@@ -152,26 +156,5 @@ async function getEmployeeArray() {
       });
     });
 };
-
-// Get the id of employees
-// async function getEmployeeId
-// () {
-//   const sql = `SELECT employees.first_name, employees.last_name, employees.manager,
-//               roles.role_name AS role, roles.salary
-//               FROM employees
-//               LEFT JOIN roles
-//               ON employees.role_id = roles.id`;
-
-//   db.query(sql, (err, rows) => {
-//     if (err) {
-//       console.log('There was an error:' , err)
-//     }
-//     const employeeArray = [];
-//     for (i=0; i<rows.length; i++) {
-//       employeeArray.push(rows[i][0]);
-//     }
-//     return employeeArray;
-//   });
-// };
 
 module.exports = { addRole, addEmployee, addDepartment, getEmployees, getRoles, getDepartments, getEmployeeArray, updateEmployee }
