@@ -23,7 +23,6 @@ Install.
 ## Usage
 
 Screencastify usage video: https://drive.google.com/file/d/1DJGfr-baXcBwkhkSPPvDJn71l8vXLpUc/view
-
 ## Contributing
 
 Contribute.
