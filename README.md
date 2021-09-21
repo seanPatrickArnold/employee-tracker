@@ -22,7 +22,7 @@ Install.
 
 ## Usage
 
-Screencastify usage video: https://drive.google.com/file/d/1DJGfr-baXcBwkhkSPPvDJn71l8vXLpUc/view
+Screencastify usage video: https://drive.google.com/file/d/1Pxsdop5eCme5c6MCO3FxRxj2zFPWyUwf/view?usp=sharing
 ## Contributing
 
 Contribute.
